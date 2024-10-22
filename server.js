@@ -11,7 +11,6 @@ app.use('/api', apiRoutes);
 
 app.use(errorHandler);
 
-
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
